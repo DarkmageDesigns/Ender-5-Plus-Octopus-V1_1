@@ -12,5 +12,5 @@ print start/end
 
 and many others. 
 
-Some are my own work and some borrow from elsehwere. 
+Some are my own work and some borrow from elsewhere. 
 Noted as appropriate. 
