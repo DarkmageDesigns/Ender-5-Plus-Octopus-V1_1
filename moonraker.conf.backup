@@ -1,7 +1,7 @@
 [server]
 host: 0.0.0.0
 port: 7125
-klippy_uds_address: /home/darkmage/printer_data/comms/klippy.sock
+klippy_uds_address: /home/darkmage/printer_1_data/comms/klippy.sock
 
 [authorization]
 trusted_clients:
@@ -42,3 +42,13 @@ repo: mainsail-crew/mainsail
 path: ~/mainsail
 
 [include octoeverywhere-system.cfg]
+
+[update_manager mobileraker]
+type: git_repo
+path: /home/darkmage/mobileraker_companion
+origin: https://github.com/Clon1998/mobileraker_companion.git
+primary_branch:main
+managed_services: mobileraker
+env: /home/darkmage/mobileraker-env/bin/python
+requirements: scripts/mobileraker-requirements.txt
+install_script: scripts/install-mobileraker-companion.sh
