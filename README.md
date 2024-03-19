@@ -6,7 +6,7 @@ screw tilt
 
 z tilt
 
-KAMP
+KAMP (install via their github - https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)
 
 print start/end
 
@@ -14,3 +14,5 @@ and many others.
 
 Some are my own work and some borrow from elsewhere. 
 Noted as appropriate. 
+
+I strongly advise that if you use my macros, you use all of them, otherwise you will get errors and prints will fail.
